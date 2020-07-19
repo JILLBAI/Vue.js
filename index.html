@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vue</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <h1>定義渲染區域</h1>
-   <div id="vue1">
-       
-   </div>
+    <div id="vue1">
+        <h3>{{ text }}</h3>
+        <a v-bind:href="yahoo">奇摩!</a>
+    </div>
 
 
 
@@ -21,8 +24,9 @@
 
 
 
-   <!-- Vue CDN -->
+    <!-- Vue CDN -->
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="./main.js"></script>
 </body>
+
 </html>
